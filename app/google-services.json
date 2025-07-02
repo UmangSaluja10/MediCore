@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748087077412",
+    "project_id": "medicore-7ac4b",
+    "storage_bucket": "medicore-7ac4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748087077412:android:a3bd7be9f548295bdb86b1",
+        "android_client_info": {
+          "package_name": "com.example.medicore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSZBecl9P4X66pZms1WUTLjZnAu3Yb7iI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
