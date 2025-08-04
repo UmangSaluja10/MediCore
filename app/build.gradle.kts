@@ -37,6 +37,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    buildFeatures {
+        mlModelBinding=true
+    }
 }
 
 dependencies {
@@ -50,7 +53,18 @@ dependencies {
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+//    lottie animation depenency
+    implementation ("com.airbnb.android:lottie:6.6.1")
+    //bottom nav dependency
+    implementation ("nl.joery.animatedbottombar:library:1.1.0")
+    // ml dependency
+    implementation ("org.tensorflow:tensorflow-lite:2.13.0")
+
 }

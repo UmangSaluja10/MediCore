@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.medicore.Fragment.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/heartFragment"
+        android:name="com.example.medicore.Fragment.heartFragment"
+        android:label="fragment_heart"
+        tools:layout="@layout/fragment_heart" />
+    <fragment
+        android:id="@+id/eyeFragment"
+        android:name="com.example.medicore.Fragment.eyeFragment"
+        android:label="fragment_eye"
+        tools:layout="@layout/fragment_eye" />
+    <fragment
+        android:id="@+id/bloodFragment"
+        android:name="com.example.medicore.Fragment.BloodFragment"
+        android:label="fragment_blood"
+        tools:layout="@layout/fragment_blood" />
+    <fragment
+        android:id="@+id/meditationFragment2"
+        android:name="com.example.medicore.Fragment.meditationFragment"
+        android:label="fragment_meditation"
+        tools:layout="@layout/fragment_meditation" />
+</navigation>

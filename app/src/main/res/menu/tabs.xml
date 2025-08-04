@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/heartFragment"
+        android:icon="@drawable/hearticon"
+        android:title="Heart Care" />
+    <item
+        android:id="@+id/eyeFragment"
+        android:icon="@drawable/eyeicon"
+        android:title="Eye Care" />
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/homeicon"
+        android:title="Home" />
+    <item
+        android:id="@+id/meditationFragment2"
+        android:icon="@drawable/mediicon"
+        android:title="Meditation" />
+    <item
+        android:id="@+id/bloodFragment"
+        android:icon="@drawable/blooddonoricon"
+        android:title="Blood Donation" />
+</menu>

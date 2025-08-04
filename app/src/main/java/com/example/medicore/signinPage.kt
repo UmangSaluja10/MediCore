@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.medicore.databinding.ActivitySigninPageBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -41,7 +39,7 @@ class signinPage : AppCompatActivity() {
                     .addOnCompleteListener(this){ task->
                         if(task.isSuccessful){
                             Toast.makeText(this,"Successfully Registered", Toast.LENGTH_SHORT).show()
-                            startActivity(Intent(this,MainActivity::class.java))
+                            startActivity(Intent(this,choice::class.java))
                             finish()
                         }
                         else{

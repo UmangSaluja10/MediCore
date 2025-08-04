@@ -11,6 +11,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.airbnb.lottie.LottieAnimationView
 import com.example.medicore.databinding.ActivitySplashScreenBinding
 
 class splashScreen : AppCompatActivity() {
@@ -20,10 +21,13 @@ class splashScreen : AppCompatActivity() {
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(binding.root)
+        binding.lottieAnimationView.setAnimation("splash_anim1.json")
+        binding.lottieAnimationView.playAnimation()
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this,loginPage::class.java))
             finish()
-        },2000)
+        },3000)
+
 
     }
 }
