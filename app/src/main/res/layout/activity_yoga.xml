@@ -160,7 +160,7 @@
                 android:layout_height="180dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_fileName="High_01.json" />
+                app:lottie_fileName="Guided Imagery.json" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -195,7 +195,7 @@
                 android:layout_height="180dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_fileName="High_01.json" />
+                app:lottie_fileName="meditationanim.json" />
 
             <TextView
                 android:layout_width="match_parent"

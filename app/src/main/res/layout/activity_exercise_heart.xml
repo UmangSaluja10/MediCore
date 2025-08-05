@@ -92,7 +92,7 @@
                 android:layout_height="180dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_fileName="Heart_01.json" />
+                app:lottie_fileName="Fat_01.json" />
 
             <TextView
                 android:layout_width="match_parent"
